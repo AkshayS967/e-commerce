@@ -1,4 +1,11 @@
 
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .header a,* {
     font-size: large;
     text-decoration: none;
@@ -10,20 +17,20 @@
     margin: 0;
 }
 
-.header.nav-1 {
+.header .nav-1 {
     background-color: rgb(244, 244, 244);
     padding: 1rem;
 }
 
-.header.nav-1 a {
+.header .nav-1 a {
     color: black;
 }
 
-.header.nav-1 ul {
+.header .nav-1 ul {
     justify-content: space-evenly;
 }
 
-.header.nav-1 .search {
+.header .nav-1 .search {
     display: flex;
     background-color: white;
     padding: 5px 5px;
@@ -32,13 +39,13 @@
     box-shadow: 2px 2px 5px rgb(212, 212, 212);
 }
 
-.header.nav-1 .search .lb {
+.header .nav-1 .search .lb {
     margin-left: 10px;
     border: none;
     background-color: transparent;
 }
 
-.header.nav-1 .search .btn {
+.header .nav-1 .search .btn {
     color: white;
     border: none;
     background-color: black;
@@ -50,7 +57,7 @@
     outline: none;
 }
 
-.header.nav-2 {
+.header .nav-2 {
     background-color: black;
     padding: 0.5rem 0rem;
     color: white;
@@ -58,17 +65,17 @@
     justify-content: space-between;
 }
 
-.header.nav-2 p{
+.header .nav-2 p{
     margin: 0rem 2rem 0rem 0rem;
     display: flex;
 }
 
-.header.nav-2 a {
+.header .nav-2 a {
     color: white;
     padding: 0rem 1rem;
 }
 
-.header.nav-2 ul {
+.header .nav-2 ul {
     display: flex;
     margin-left: 3rem;
     justify-content: space-evenly;

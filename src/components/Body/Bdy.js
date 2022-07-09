@@ -9,7 +9,7 @@ import Home from './Home'
 
 const Bdy = () => {
   return (
-    <div style={{minHeight: '700px'}}>
+    <div style={{minHeight: '900px', marginTop: '150px'}}>
           <Routes>
               <Route exact path="/" element={<Home/>}/>
               <Route path="/cart" element={<Cart/>} />

@@ -5,17 +5,17 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <ul>
+      <ul className='company'>
         <li><Link to=''>About Us</Link></li>
         <li><Link to=''>Member News</Link></li>
         <li><Link to=''>Special Privileges For Members</Link></li>
       </ul>
-      <ul>
+      <ul className='service'>
         <li><Link to=''>Discount Coupon</Link></li>
         <li><Link to=''>FAQ</Link></li>
         <li><Link to=''>Warranty Terms</Link></li>
       </ul>
-      <ul>
+      <ul className='contact'>
         <li><Link style={{ textDecoration: 'none' }} to=''>130 Nguyen Duc Canh, Hoang Mai, Ha Noi</Link></li>
         <li><Link to=''>+84 988 358 143</Link></li>
       </ul>

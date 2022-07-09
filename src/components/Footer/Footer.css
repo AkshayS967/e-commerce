@@ -2,6 +2,16 @@
     padding: 2rem 2rem;
     background-color: black;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    margin-bottom: 1rem;
 }
 
 .footer a {
