@@ -1,0 +1,15 @@
+.cart {
+    margin: 5rem 10rem;
+}
+
+.cart table,th,td {
+    background-color: rgb(233, 233, 233);
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.cart th,td {
+    border: 1px solid white;
+    padding: 1rem 2rem;
+}
